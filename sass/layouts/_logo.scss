@@ -1,0 +1,30 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    // margin-right: 40px;
+    
+    }
+.logo-web {color: var(--title-color); font-style: normal;}
+
+
+.header .logo {color: var(--accent-color); 
+    display: block; padding-top: 32px; padding-bottom: 32px;
+}
+
+.footer-logo {display: flex;
+    justify-content: center;
+    
+    font-family: "Ralevey", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;}
+
+.footer span {color: var(--button-color);}
