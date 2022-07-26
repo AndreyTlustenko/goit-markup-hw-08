@@ -1,11 +1,32 @@
 .section {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 
-    @media screen and (min-width:480px) {width: 480px; padding-top: 60px; padding-bottom: 60px;
-    }
+    // @media screen and (min-width:320px) {width: 320px; padding-top: 60px; padding-bottom: 60px;
+    // }
 }
-.section-comand {background: var(--background-button);
-    padding-bottom: 94px; padding-top: 94px; 
+.section-comand {
+  background: var(--background-button);
+  padding-bottom: 60px; 
+  padding-top: 60px; 
+  padding-left: 15px;
+  padding-right: 15px;
+
+    // @media screen and (min-width:320px) {width: 320px; padding-top: 60px; padding-bottom: 60px;
+    // }
+
   }
-.section-studia { padding-top: 94px;}
+.section-studia { padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.section-work{
+  display: none;
+}
+
+.section-clients { padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

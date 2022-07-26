@@ -10,6 +10,10 @@ box-sizing:border-box;
 border-bottom: 1px solid #ECECEC; 
 }
 
+.nav,
+.head-group {
+    display: none;
+}
 
 // .head-nav {display: flex; color: var(--title-color); margin-left: 50px;}
 // .head-group {display: flex;  margin-left: auto; padding: 0; }

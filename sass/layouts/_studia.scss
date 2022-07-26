@@ -4,9 +4,10 @@
 
 .studia-list {
   
-       @media screen and (min-width:480px) {width: 320px ;
-        
-        &__title {
+    &__title {
+        display: flex;
+        justify-content: center;
+            
             //  margin-right: 30px;
                     font-family: inherit;
                     color: var(--title-color);
@@ -18,7 +19,9 @@
                     margin: 0;
                     margin-bottom: 10px;
                 }
-            
+                @media screen and (min-width: 480px)
+                    { width: 480px;}
+                   
                &__text {
                 //  margin-right: 30px;
                  font-family: inherit;
@@ -83,8 +86,8 @@
           
        
   
-@media screen and (min-width:1200px) {
-          width: 1200px;
+// @media screen and (min-width:1200px) {
+//           width: 1200px;
    &__title {
      margin-right: 30px;
         font-family: inherit;
@@ -118,9 +121,7 @@
         height: 120px;
         margin-bottom: 30px;
        }
-       }
-
-}
+     
    
 
     
