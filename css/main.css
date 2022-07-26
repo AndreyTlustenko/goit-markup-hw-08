@@ -71,19 +71,44 @@ a {
   padding-right: 15px;
   width: 100%;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 320px) {
   .container {
     width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
   }
 }
 
@@ -1054,7 +1079,7 @@ textarea {
 .comands {
   background: var(--background-button);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .comands {
     width: 480px;
   }
@@ -1062,15 +1087,23 @@ textarea {
     margin-bottom: 30px;
   }
 }
-.comands .comand-list {
+
+.comand-list {
   background-color: var(--button-color);
   text-align: center;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
 }
-.comands__title {
+@media screen and (min-width: 480px) {
+  .comand-list {
+    width: 480px;
+  }
+  .comand-list:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.comand-list__title {
   font-family: inherit;
   color: var(--title-color);
   font-style: normal;
@@ -1081,11 +1114,11 @@ textarea {
   margin-bottom: 10px;
   margin-top: 0;
 }
-.comands__item {
+.comand-list__item {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.comands__text {
+.comand-list__text {
   color: var(--primary_text-color);
   font-family: inherit;
   text-align: center;
@@ -1117,9 +1150,7 @@ textarea {
   padding-top: 60px;
 }
 .footer-label__email {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

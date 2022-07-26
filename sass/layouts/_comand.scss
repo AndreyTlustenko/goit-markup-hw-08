@@ -10,11 +10,11 @@
 .comands {background: var(--background-button);
         // display: flex; 
         // padding-left: 0;
-         @media screen and (min-width:480px) {
+         @media screen and (min-width:320px) {
         width: 480px ;
         &:not(:last-child) {margin-bottom: 30px;           
         }
-
+    }
      }
 
 .comand-list {background-color: var(--button-color);
