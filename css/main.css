@@ -1053,21 +1053,24 @@ textarea {
 
 .comands {
   background: var(--background-button);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0;
 }
-
-.comand-list {
+@media screen and (min-width: 480px) {
+  .comands {
+    width: 480px;
+  }
+  .comands:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.comands .comand-list {
   background-color: var(--button-color);
   text-align: center;
-  margin-right: 30px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 }
-.comand-list__title {
+.comands__title {
   font-family: inherit;
   color: var(--title-color);
   font-style: normal;
@@ -1078,11 +1081,11 @@ textarea {
   margin-bottom: 10px;
   margin-top: 0;
 }
-.comand-list__item {
+.comands__item {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.comand-list__text {
+.comands__text {
   color: var(--primary_text-color);
   font-family: inherit;
   text-align: center;
