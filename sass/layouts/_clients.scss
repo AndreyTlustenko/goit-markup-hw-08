@@ -1,16 +1,22 @@
-.clients {display: flex;
+.clients {
+    display: flex;
+    flex-wrap: wrap;
   
     font-size: 36px;
     line-height: 1.16;
     padding: 0;
     text-align: center;
 
+gap: 30px;
+
     flex-basis: calc((100% - 2 * 15px) / 2);
 
-&__item:not(:last-child) {margin-right: 30px;}
+// &__item:not(:last-child) {margin-right: 30px;}
 
 &__item { width: 210px; height:92px;
-    padding: 16px 52px;
+  
+
+    
 }
 
 // &__icon {fill: currentColor;}
@@ -23,23 +29,23 @@
     
 }
 
-// &__link { display: flex;
-//     box-sizing: border-box;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-//     height: 100%;
-//     border: 1px solid #AFB1B8;
-//     border-radius: 4px;
-//     color:  #AFB1B8;
+&__link { display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color:  #AFB1B8;
 
-//     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-// &__link:hover,
-// &__link:focus {color: var(--accent-color);
-//     border-color: var(--accent-color);
+&__link:hover,
+&__link:focus {color: var(--accent-color);
+    border-color: var(--accent-color);
     
-// }
+}
 
-
+}
 
