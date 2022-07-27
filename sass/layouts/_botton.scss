@@ -66,14 +66,20 @@
     
     margin-bottom: 40px;
 
-    
-} 
+
+   } 
+
+
 
 // &__item:first-child {margin-left: 0px; }
 
-&__item { margin-left: 8px; 
+&__item { margin-left: 8px; margin-bottom: 15px;
+
+    
 }
 }
+
+
 
 
 .button {padding: 6px 22px;
