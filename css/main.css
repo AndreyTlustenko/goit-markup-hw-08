@@ -676,6 +676,9 @@ textarea {
   width: 210px;
   height: 92px;
 }
+.clients__icon {
+  fill: currentColor;
+}
 .clients__icon:hover, .clients__icon:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
