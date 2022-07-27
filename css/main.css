@@ -538,29 +538,14 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (min-width: 320px) {
-  .botton-nav {
-    width: 480px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding-bottom: 40px;
-  }
-}
 .botton-nav__list {
   width: var(--header-width);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 35px;
-}
-.botton-nav__item:first-child {
-  margin-left: 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .botton-nav__item {
   margin-left: 8px;
@@ -861,8 +846,8 @@ textarea {
 .header .logo {
   color: var(--accent-color);
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .footer-logo {

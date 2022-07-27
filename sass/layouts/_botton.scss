@@ -57,20 +57,19 @@
 
 
 .botton-nav { display: flex; 
+    
 
-@media screen and (min-width:320px) {width: 480px;display: flex;  flex-wrap: wrap;
-     padding-bottom: 40px;
-     }
+
 
 &__list {width: var(--header-width); 
-    display: flex; ;
-    justify-content: center;
-    margin-bottom: 35px;
+    display: flex; ; flex-wrap: wrap;
+    
+    margin-bottom: 40px;
 
     
 } 
 
-&__item:first-child {margin-left: 0px; }
+// &__item:first-child {margin-left: 0px; }
 
 &__item { margin-left: 8px; 
 }
