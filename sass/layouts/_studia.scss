@@ -1,13 +1,23 @@
 .studia {padding: 0;
    display: block;
-    }
+
+}
 
 .studia-list {
   
+    @media screen and (min-width:768px) {
+        flex-basis: calc((100% - 2 * 30px) / 2);
+        
+    }
+
     &__title {
         display: flex;
         justify-content: center;
-            
+
+
+        @media screen and (min-width:768px) {justify-content: flex-start;
+        
+        }
           
                     font-family: inherit;
                     color: var(--title-color);
@@ -22,15 +32,18 @@
                 
                    
                &__text {
-                //  margin-right: 30px;
+               
                  font-family: inherit;
                     color: var(--primary_text-color);
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 1.71;
                     padding: 10px, 70px, 30px, 70px;
+
+                    @media screen and (min-width:768px) {
+                        margin-right: 30px;
                 }
-            
+               }
            
                &__item { 
                 display: flex;
@@ -40,8 +53,13 @@
                     width: 450px;
                     height: 120px;
                     margin-bottom: 30px;
+
+                    @media screen and (min-width:768px) {
+                     width: 354px;
                    }
+                   
                    }
+                }
         
        
   
