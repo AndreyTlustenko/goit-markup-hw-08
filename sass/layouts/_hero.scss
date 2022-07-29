@@ -12,7 +12,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   
-   background-image: url('../../images/mobile/hero2x_img.jpg');
+   background-image: url('../images/mobile/hero2x_img.jpg');
   }
 
  @media screen and (min-width:768px) 
@@ -36,14 +36,14 @@
        rgba(47, 48, 58, 0.4),
        rgba(47, 48, 58, 0.4) 
        ),
-       url("../../images/hero.jpg");
+       url("../images/1200/hero.jpg");
       
  @media (min-device-pixel-ratio: 2),
        (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
        
-        background-image: url('../../images/Hero2x.jpg');}  
+        background-image: url('../images/1200/Hero2x.jpg');}  
       }
    
    

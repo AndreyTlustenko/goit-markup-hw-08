@@ -209,7 +209,21 @@
          <h2 class="h2-title">Наша команда</h2>
       <ul class="comands">
         <li class="comand-list"><a href="">
-            <img src="./images/mobile/img-1.jpg" alt="фото" width="450" height="460"></a>
+           <picture>
+        <source media="(min-width: 1200)"
+             srcset=".images/1200/1200img-1.png 1x,  .images/1200/1200img2x-1.png 2x" 
+             type="image/png">
+        <source media="(min-width: 768)"
+             srcset="./images/768/img768-1.jpg 1x,  ./images/768/768img2x-1.jpg 2x" 
+             type="image/jpg">
+        <source media="(max-width: 767)"
+             srcset=".images/mobile/img-1.jpg 1x,  .images/mobile/img2x-1.jpg 2x" 
+             type="image/jpg">
+          <img  src="./images/mobile/img-1.jpg" alt="фото" width="450" height="460"></a>
+
+           </picture>
+        
+          
             <div class="comand-list__item">
             <h3 class="comand-list__title">Игорь Демьяненко</h3>
             <p class="comand-list__text" lang="en">Product Designer</p>
@@ -246,7 +260,9 @@
             </ul>
         </div>
         </li>
-        <li class="comand-list"><a href=""><img src="./images/mobile/img-2.jpg" alt="фото" width="450" height="460"></a>
+        <li class="comand-list">
+            <a href=""><img srcset="./images/mobile/img-2.jpg, ./images/mobile/img2x-2.jpg 2x"
+             src="./images/mobile/img-2.jpg" alt="фото" width="450" height="460"></a>
            <div class="comand-list__item">
             <h3 class="comand-list__title">Ольга Репина</h3>
             <p class="comand-list__text" lang="en">Frontend Developer</p>
@@ -284,7 +300,9 @@
             
         </div>
         </li>
-        <li class="comand-list"><a href=""><img src="./images/mobile/img-3.jpg" alt="фото" width="450" height="460"></a>
+        <li class="comand-list"><a href="">
+            <img srcset="./images/mobile/img-3.jpg, ./images/mobile/img2x-3.jpg 2x"
+            src="./images/mobile/img-3.jpg" alt="фото" width="450" height="460"></a>
             <div class="comand-list__item">
             <h3 class="comand-list__title"> Николай Тарасов</h3>
             <p class="comand-list__text" lang="en">Marketing</p>
@@ -321,7 +339,9 @@
             </ul>
         </div>
         </li>
-        <li class="comand-list"><a href=""><img src="./images/mobile/img-4.jpg" alt="фото" width="450" height="460"></a>
+        <li class="comand-list"><a href="">
+            <img srcset="./images/mobile/img-4.jpg, ./images/mobile/img2x-4.jpg 2x"
+             src="./images/mobile/img-4.jpg" alt="фото" width="450" height="460"></a>
             <div class="comand-list__item">
             <h3 class="comand-list__title">Михаил Ермаков</h3>
             <p class="comand-list__text" lang="en">UI Designer</p>

@@ -43,6 +43,12 @@
     background: #2F303A;
 
     padding: 16px 15px;
+    margin-right: auto;
+    margin-left: auto;  
+
+    @media screen and (min-width:768px) { display: flex;
+        
+    }
 }
 &__email:focus { outline: transparent;}
 
