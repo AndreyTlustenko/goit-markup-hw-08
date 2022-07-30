@@ -7,6 +7,13 @@
     --button-o:#188CE8;
     --social-icon:  #AFB1B8;
 
+    @media screen and (min-width: 768px)
+    {
+    --header-width: 768px;
+    --items: 2; 
+    --indent: 30px;     
+    }
+
     @media screen and (min-width: 1200px)
     {
     --header-width: 1200px;
