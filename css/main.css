@@ -75,6 +75,12 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (min-width: 768px) {
+  .section-comand {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section-comand {
     padding-bottom: 94px;
@@ -1476,9 +1482,6 @@ textarea {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
-    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1500,8 +1503,9 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .comand-list {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    -ms-flex-preferred-size: calc((100% - var(--indent) * var(--items)) / var(--items));
+        flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
+    margin: calc(var(--indent) / 2);
   }
 }
 @media screen and (max-width: 767px) {
