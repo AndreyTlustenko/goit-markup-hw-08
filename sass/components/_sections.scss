@@ -4,7 +4,8 @@
     // padding-left: 15px;
     // padding-right: 15px;
 
-    
+    @media screen and (min-width: 1200px) {padding-bottom: 94px;
+      padding-top: 94px;}
 }
 
 
@@ -15,6 +16,8 @@
   padding-left: 15px;
   padding-right: 15px;
 
+  @media screen and (min-width: 1200px) {padding-bottom: 94px;
+    padding-top: 94px;}
   }
 
 
@@ -23,12 +26,20 @@
   
   @media screen and (min-width:768px) {
   padding-bottom: 60px;}
+
+  @media screen and (min-width: 1200px) 
+    {padding-top: 94px;  padding-bottom:0;}
 }
 
 .section-work{
   display: none;
+  @media screen and (min-width: 1200px) {display: flex;
+    padding-bottom: 94px;
+    padding-top: 94px;}
 }
 
 .section-clients { padding-top: 60px; padding-bottom: 60px;
 
+  @media screen and (min-width: 1200px) {padding-bottom: 94px;
+    padding-top: 94px;}
 }

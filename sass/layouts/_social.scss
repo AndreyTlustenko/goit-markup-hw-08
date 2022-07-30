@@ -18,11 +18,14 @@
     display: flex;
     justify-content: center;
     color: var(--button-color);
-    // margin-left: 70px;
+  
     margin-top: 60px;
     flex-direction: column;
-    // position: absolute;
-}
+   
+
+    @media screen and (min-width: 1200px) {  display: inline-flex;
+    margin-left: 70px; position: absolute;}
+}  
 
 .footer-social-list__icon {fill: #FFFFFF;}
 

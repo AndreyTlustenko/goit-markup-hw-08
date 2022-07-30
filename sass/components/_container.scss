@@ -23,9 +23,14 @@
     padding-right: 15px; 
    
     box-sizing:border-box; 
-    // width: 480px;
+   
 
-   //  @media screen and (min-width:480px) {width: 480px ;
-   //      max-height: 94px;
-   //  }
+    @media screen and (min-width:1200px) {display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px; width: 1200px; box-sizing:border-box;
+    }
+  
 }

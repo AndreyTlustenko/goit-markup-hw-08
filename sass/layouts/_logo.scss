@@ -29,6 +29,7 @@
     color: var(--accent-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;}
-
+    line-height: 1.19;
+    @media screen and (min-width: 1200px) {  justify-content: flex-start; }
+}
 .footer span {color: var(--button-color);}

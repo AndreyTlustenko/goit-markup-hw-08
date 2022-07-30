@@ -2,12 +2,14 @@
     // position: absolute;
     // transform: translate(100%);
     // bottom: 100px;
- 
+
+    @media screen and (min-width: 1200px) { 
+        position: absolute;
+        transform: translate(100%);
+        bottom: 100px;}
+
 &__title {display: flex;
     justify-content: center;
-
-
-
 
     font-family: 'Roboto';
     font-style: normal;
@@ -15,16 +17,17 @@
     font-size: 14px;
     line-height: 16px;
     
-
     text-transform: uppercase;
     
     color: #FFFFFF;
     padding-bottom: 20px;
     padding-top: 60px;
+
+    @media screen and (min-width: 1200px) {display: block}
 }
 
 &__email {
-    // display: inline-flex;
+    
     display: block;
     font-family: 'Roboto';
     font-style: normal;
@@ -47,10 +50,10 @@
     margin-left: auto;  
 
     @media screen and (min-width:768px) { display: flex;
-        
-    }
+            }
+    @media screen and (min-width: 1200px) {  display: inline-flex;
 }
 &__email:focus { outline: transparent;}
 
 }
-
+}
