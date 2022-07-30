@@ -24,7 +24,9 @@
    
 
     @media screen and (min-width: 1200px) {  display: inline-flex;
-    margin-left: 70px; position: absolute;}
+    margin-left: 70px;
+    margin-top: 0;
+     position: absolute;}
 }  
 
 .footer-social-list__icon {fill: #FFFFFF;}

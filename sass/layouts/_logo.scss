@@ -7,16 +7,22 @@
     font-size: 24px;
     line-height: 1.17;
 
+   @media screen and (min-width:768px)
+  { margin-right: 35px;}
+
+
     @media screen and (min-width:1200px) {
     margin-right: 40px; font-size: 26px;
     }
     }
+
 .logo-web {color: var(--title-color); font-style: normal;}
 
 
 .header .logo {color: var(--accent-color); 
     display: block; 
-    padding-top: 16px; padding-bottom: 16px;
+    // padding-top: 16px; padding-bottom: 16px;
+
     // padding-top: 32px; padding-bottom: 32px;
 }
 
