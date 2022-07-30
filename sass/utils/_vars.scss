@@ -6,9 +6,13 @@
     --background-button: #F5F4FA;
     --button-o:#188CE8;
     --social-icon:  #AFB1B8;
-    // --header-width: 1200px;
-    // --items: 3;         
-    // --indent: 30px;     
+
+    @media screen and (min-width: 1200px)
+    {
+    --header-width: 1200px;
+    --items: 3;         
+    --indent: 30px;     
+    }
     }
 
    
