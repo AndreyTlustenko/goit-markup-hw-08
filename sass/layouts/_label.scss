@@ -1,11 +1,9 @@
 .footer-label {display: block;
-    // position: absolute;
-    // transform: translate(100%);
-    // bottom: 100px;
+    
 
-    @media screen and (min-width: 1200px) { 
+    @media screen and (min-width: 1200px) { display: flex;
         position: absolute;
-        transform: translate(100%);
+        transform: translate(50%);
         bottom: 100px;}
 
 &__title {display: flex;
@@ -23,7 +21,11 @@
     padding-bottom: 20px;
     padding-top: 60px;
 
-    @media screen and (min-width: 1200px) {display: block}
+    @media screen and (min-width: 1200px) {display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
 }
 
 &__email {
@@ -52,6 +54,7 @@
     @media screen and (min-width:768px) { display: flex;
             }
     @media screen and (min-width: 1200px) {  display: inline-flex;
+       margin-left: 93px; min-width: 358px;
 }
 &__email:focus { outline: transparent;}
 
