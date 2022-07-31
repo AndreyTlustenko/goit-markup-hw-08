@@ -230,6 +230,12 @@
         }
     }
 
+    .mobile-button-menu__icon {
+
+        &:focus,
+        &:hover { fill: #2196F3;} 
+    }
+
 
     .mobile-button-menu__close {
         opacity: 0;
