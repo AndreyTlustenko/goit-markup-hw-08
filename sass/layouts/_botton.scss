@@ -235,8 +235,19 @@
     }
     // .mobile-button-menu__close:hover,
     // .mobile-button-menu__burger:hover,
+   
     .mobile-button-menu__close:focus,
     .mobile-button-menu__burger:focus
-    { color: var(--accent-color);
-                     
-            }
+    { color: var(--accent-color);       
+     }
+
+    .mobile-button-menu__close {
+
+
+    }
+
+
+    .mobile-button-menu__burger {
+        color: #212121;
+
+    }
