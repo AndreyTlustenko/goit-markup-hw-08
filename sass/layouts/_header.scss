@@ -116,6 +116,13 @@ padding-right: 15px;
          .head-group__list:not(:last-child),
         .head-nav__list:not(:last-child) {margin-right: 50px; 
                 padding: 0; display: flex;}
+
+
+                .curent-studio::after,
+                .curent-portfolio::after{
+                    content: '';
+                    bottom: -6px;
+                  }
                 
 }
         
