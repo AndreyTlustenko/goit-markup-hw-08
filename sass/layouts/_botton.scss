@@ -233,7 +233,7 @@
         cursor: pointer;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    // &:focus .mobile-button-menu__icon,
+    &:focus .mobile-button-menu__icon,
     &:hover .mobile-button-menu__icon { fill: var(--accent-color);       
      }
 
@@ -257,7 +257,7 @@
         cursor: pointer;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-        // &:focus,
+        &:focus,
         &:hover { fill: #2196F3;} 
     }
 
