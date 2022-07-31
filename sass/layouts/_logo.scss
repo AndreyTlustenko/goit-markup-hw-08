@@ -23,10 +23,15 @@
     display: block; 
     padding-top: 16px; padding-bottom: 16px;
 
-    @media screen and (min-width: 768px) {  padding-top: 0; padding-bottom: 0; }
-    @media screen and (min-width: 1200px) {  padding-top: 0; padding-bottom: 0; }
+    @media screen and (min-width: 768px) {  padding-top: 0; padding-bottom: 0; 
+        padding-top: 26px; padding-bottom: 26px;
+    }
 
-    // padding-top: 32px; padding-bottom: 32px;
+    @media screen and (min-width: 1200px) {  padding-top: 0; padding-bottom: 0;
+      padding-top: 32px; padding-bottom: 32px;
+    }
+
+  
 }
 
 .footer-logo {display: flex;
@@ -39,6 +44,8 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    @media screen and (min-width: 1200px) {display: flex;  justify-content: flex-start; }
+
+    @media screen and (min-width: 1200px) {display: flex;
+          justify-content: flex-start; }
 }
 .footer span {color: var(--button-color);}
