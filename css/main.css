@@ -257,6 +257,12 @@ a {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 
 .slogan {
   display: -webkit-box;
@@ -692,12 +698,6 @@ a {
 .modal-form {
   padding: 40px;
 }
-@media screen and (min-width: 1200px) {
-  .modal-form {
-    width: 528px;
-    height: 581px;
-  }
-}
 .modal-form__title {
   font-family: "Roboto";
   font-style: normal;
@@ -813,6 +813,13 @@ textarea {
   padding-top: 20px;
   padding-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .checkbox {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .checkbox__input {
   position: absolute;
   width: 1px;
@@ -837,6 +844,12 @@ textarea {
   -webkit-transform: translate(5px, 4px);
           transform: translate(5px, 4px);
   cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .checkbox__link {
+    -webkit-transform: translate(0, 2px);
+            transform: translate(0, 2px);
+  }
 }
 .checkbox__text {
   display: -webkit-box;
@@ -1244,6 +1257,7 @@ textarea {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-box-align: center;

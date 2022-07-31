@@ -2,6 +2,10 @@
     padding-top: 20px;
     padding-bottom: 30px;
 
+
+    @media screen and (min-width:1200px) {justify-content: center; }
+
+
 &__input {   position: absolute;
     width: 1px;
     height: 1px;
@@ -29,6 +33,10 @@
     transform: translate(5px, 4px);
     
     cursor: pointer;
+
+    @media screen and (min-width:1200px) {
+    transform: translate(0, 2px);
+    }
 }
 
 &__text { display:flex;
