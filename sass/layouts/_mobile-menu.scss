@@ -1,4 +1,3 @@
-
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -105,31 +104,4 @@ letter-spacing: 0.02em;
 color: #757575;
 }  
 
-.mobile-button-menu{display: flex;
-    align-items: center;
-    justify-content: center;
 
-    background-color: transparent;
-    border: none;
-    width: 40px;
-    height: 40px;
-    
-    margin-left: auto;
-    z-index: 100;
-
-    @media screen and (min-width:768px){
-        display: none;
-    }
-}
-.mobile-button-menu__close {
-    opacity: 0;
-    .mobile-button-menu.is-open &{
-        opacity: 1;
-    }
-}
-
-.mobile-button-menu__burger{
-    .mobile-button-menu.is-open &{
-        opacity: 0;
-    }
-}

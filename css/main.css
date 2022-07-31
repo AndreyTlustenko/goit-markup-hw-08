@@ -1026,6 +1026,45 @@ textarea {
   margin-left: 10px;
 }
 
+.mobile-button-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  z-index: 100;
+}
+@media screen and (min-width: 768px) {
+  .mobile-button-menu {
+    display: none;
+  }
+}
+
+.mobile-button-menu__close {
+  opacity: 0;
+}
+.mobile-button-menu.is-open .mobile-button-menu__close {
+  opacity: 1;
+}
+
+.mobile-button-menu.is-open .mobile-button-menu__burger {
+  opacity: 0;
+}
+
+.mobile-button-menu__close:focus,
+.mobile-button-menu__burger:focus {
+  color: var(--accent-color);
+}
+
 .clients {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1848,4 +1887,9 @@ textarea {
 
 .mobile-button-menu.is-open .mobile-button-menu__burger {
   opacity: 0;
+}
+
+.mobile-button-menu__close:focus,
+.mobile-button-menu__burger:focus {
+  color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */

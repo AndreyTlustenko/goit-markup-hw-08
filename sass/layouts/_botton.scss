@@ -202,3 +202,41 @@
   .f-submit {fill: #FFFFFF;
         margin-left: 10px;
     }
+
+
+
+    .mobile-button-menu{display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: transparent;
+        border: none;
+        width: 40px;
+        height: 40px;
+        
+        margin-left: auto;
+        z-index: 100;
+    
+        @media screen and (min-width:768px){
+            display: none;
+        }
+    }
+    .mobile-button-menu__close {
+        opacity: 0;
+        .mobile-button-menu.is-open &{
+            opacity: 1;
+        }
+    }
+    
+    .mobile-button-menu__burger{
+        .mobile-button-menu.is-open &{
+            opacity: 0;
+        }
+    }
+    // .mobile-button-menu__close:hover,
+    // .mobile-button-menu__burger:hover,
+    .mobile-button-menu__close:focus,
+    .mobile-button-menu__burger:focus
+    { color: var(--accent-color);
+                     
+            }
