@@ -1,32 +1,92 @@
-.footer-label {display: block;
+.footer-label {
+    display: block;
     
+    @media screen and (min-width: 768px) { 
+    margin-left: auto;
+    margin-right: auto;
+    }
 
-    @media screen and (min-width: 1200px) { display: flex;
+    @media screen and (min-width: 1200px) { 
+        display: flex;
         position: absolute;
         transform: translate(50%);
-        bottom: 100px;}
-
-&__title {display: flex;
-    justify-content: center;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+        bottom: 100px;
     
-    text-transform: uppercase;
     
-    color: #FFFFFF;
-    padding-bottom: 20px;
-    padding-top: 60px;
-
-    @media screen and (min-width: 1200px) {display: flex;
-        justify-content: center;
-        padding-bottom: 0;
-        padding-top: 0;
+        // display:flex;
+        // position: absolute;
+        // transform: translate(100%);
+        // bottom: 55px;
     }
-}
+     
+    &__title {display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        padding-top: 60px;
+
+        @media screen and (min-width: 1200px) { 
+        margin-bottom: 20px;
+        margin-left: 93px;
+    }
+    }
+    &__email {
+        display: inline-flex;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+    
+        min-width: 368px;
+        height: 50px;
+    
+        color: #fff;
+    
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background: #2F303A;
+    
+        padding: 16px 15px;
+  }
+        // @media screen and (min-width: 1200px)
+    
+  
+
+
+// &__title {display: flex;
+//     justify-content: center;
+
+//     font-family: 'Roboto';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+    
+//     text-transform: uppercase;
+    
+//     color: #FFFFFF;
+//     padding-bottom: 20px;
+//     padding-top: 60px;
+
+//     @media screen and (min-width: 1200px) {display: flex;
+//         justify-content: center;
+//         padding-bottom: 20px;
+//         padding-top: 0;
+    
+
 
 &__email {
     
@@ -54,9 +114,17 @@
     @media screen and (min-width:768px) { display: flex;
             }
     @media screen and (min-width: 1200px) {  display: inline-flex;
-       margin-left: 93px; min-width: 358px;
+       margin-left: 93px; 
+       margin-right: 12px;
+       min-width: 358px;
 }
-&__email:focus { outline: transparent;}
+}
+   &__email:focus { outline: transparent;}
 
 }
-}
+
+// .label {display: flex;
+// flex-direction: column;
+// position: absolute;
+// top: 0;
+// right: 0;

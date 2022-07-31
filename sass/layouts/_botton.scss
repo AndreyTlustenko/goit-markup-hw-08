@@ -175,8 +175,10 @@
         margin-right: auto;
 
         @media screen and (min-width: 1200px) { 
-            margin-left: 12px;
-            margin-top: 0;}
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+           }
 
 
         min-width: 200px;

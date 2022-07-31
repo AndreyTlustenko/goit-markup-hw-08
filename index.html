@@ -49,8 +49,8 @@
 
 <button class="mobile-button-menu" type="button" data-menu-button>
     <svg class="mobile-button-menu__icon" width="24" height="16">
-        <use class="mobile-button-menu__burger" href="./images/icons.svg#icon-menu_mobile"></use>
-        <use class="mobile-button-menu__close" href="./images/icons.svg#icon-close_mobile"></use>
+        <use class="mobile-button-menu__burger" href="./images/icons.svg#icon-menu_24px"></use>
+        <use class="mobile-button-menu__close" href="./images/icons.svg#icon-close_24px"></use>
     </svg>
   </button>
 
@@ -231,17 +231,17 @@
         <div class="container-comands">
          <h2 class="h2-title">Наша команда</h2>
       <ul class="comands">
-        <li class="comand-list"><a href="">
-           <picture>
+        <li class="comand-list">
+           <picture><a href="">
         <source media="(min-width: 1200)"
              srcset=".images/1200/1200img-1.png 1x,  .images/1200/1200img2x-1.png 2x" 
-             type="image/png">
+             type="image/png"/>
         <source media="(min-width: 768)"
              srcset="./images/768/img768-1.jpg 1x,  ./images/768/768img2x-1.jpg 2x" 
-             type="image/jpg">
+             type="image/jpg"/>
         <source media="(max-width: 767)"
              srcset=".images/mobile/img-1.jpg 1x,  .images/mobile/img2x-1.jpg 2x" 
-             type="image/jpg">
+             type="image/jpg"/>
           <img  src="./images/mobile/img-1.jpg" alt="фото" width="450" height="460"></a>
 
            </picture>
@@ -487,7 +487,7 @@
 
    
 <footer class="footer">
-       <div class="container">  
+       <div class="footer-container">  
             <div class="footer-items"> 
                     <a class="footer-logo" href="./index.html">Web<span class="logo-web">Studio</span></a>  
                     <address>
@@ -533,13 +533,15 @@
             </div>
         
             <form class="footer-label">
+               <div class="label" >
               <label class="footer-label__title">Подпишитесь на рассылку </label>
               <input class="footer-label__email" type="email" name="email" placeholder="Е-mail">
-        
+                </div>
            <button class="button-submit" type="submit">Подписаться <svg class="f-submit" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>
             </button>
+       
         </form>
         </div>
         </footer>

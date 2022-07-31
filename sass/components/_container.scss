@@ -6,7 +6,7 @@
     
     @media screen and (min-width: 480px) {
 		width: 480px;
-        
+
 	}	@media screen and (min-width: 768px) {
 		width: 768px;
 
@@ -54,4 +54,25 @@
         box-sizing:border-box;
     }
   
+}
+
+.footer-container {
+    padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+    @media screen and (min-width:768px) {width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 89px;
+        padding-left: 76px;
+    }
+
+    @media screen and (min-width:768px) {width: 1200px;   display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
