@@ -12,8 +12,9 @@
     text-transform: uppercase;
     color: var(--button-color);
 
-    @media screen and (min-width: 1200px) {
-    padding-top: 10px;}
+    @media screen and (min-width: 1200px) {justify-content: flex-start;
+   
+    }
     
    }
 
