@@ -248,13 +248,20 @@
     .mobile-button-menu__icon {fill: currentColor}
 
    
-    // .mobile-button-menu__close:hover,
-    // .mobile-button-menu__burger:hover,
    
     .mobile-button-menu:focus .mobile-button__link,
-    .mobile-button-menu:focus.mobile-button__link
-    { color: var(--accent-color);       
+    .mobile-button-menu:focus .mobile-button__link { color: var(--accent-color);       
      }
+
+
+     .mobile-button__link {
+
+        color: #212121;
+
+            cursor: pointer;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+
 
     // .mobile-button-menu__close {
     //     width: 40px;
