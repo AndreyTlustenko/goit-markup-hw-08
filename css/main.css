@@ -1577,7 +1577,6 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   background: var(--background-button);
-  width: 450px;
   height: 120px;
   margin-bottom: 30px;
 }
@@ -1735,6 +1734,7 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    min-width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
