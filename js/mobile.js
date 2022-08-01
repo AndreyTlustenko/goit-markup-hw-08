@@ -3,7 +3,7 @@
     const mobileMenuRef = document.querySelector("[data-menu]");
   
 
-    body: document.querySelector("[data-body]"),
+   
 
     menuBtnRef.addEventListener("click", () => {
       const expanded =
